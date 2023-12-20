@@ -11,10 +11,10 @@ app.use(cors());
 
 app.get('/', (req, res) => {
     res.json({
-        Create_Todo:"localhost:3000/api/add-todo",
-        Get_ALl_Todo:"localhost:3000/api/get-all-todo",
-        Update_Todo:"localhost:3000/api/update-todo/:id",
-        delete_Todo:"localhost:3000/api/delete-todo/:id",
+        Create_Todo:"https://w5-todo-end-points.vercel.app/api/add-todo",
+        Get_ALl_Todo:"https://w5-todo-end-points.vercel.app/api/get-all-todo",
+        Update_Todo:"https://w5-todo-end-points.vercel.app/api/update-todo/:id",
+        delete_Todo:"https://w5-todo-end-points.vercel.app/api/delete-todo/:id",
     })
 })
 
